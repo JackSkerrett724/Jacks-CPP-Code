@@ -327,7 +327,7 @@ void GetMovement()
             moveVar++;                           //
             if(moveVar == 'w')                   //  << This does not work, but this attempts to have the tail follow the head while still "clearing" the space behind  it
                 {                                //
-                    grid[x-1][y] = 'x';          //
+                    grid[x-1][y] = Tail;         //
                 }
            
         }
